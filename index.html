@@ -108,7 +108,7 @@
 
           <div class="about-me-content" style="font-size: 16px; text-align: justify;">
             <p class="lead" style="line-height: 1.8; color: #495057; margin-bottom: 20px;">
-              I am currently pursuing a Master’s in Data Science , building on a strong foundation in engineering with a Bachelor of Technology in Computer Science from CMR Institute of Technology. My engineering background has equipped me with rigorous problem-solving abilities, a deep understanding of algorithms, and strong technical skills, which I have transitioned into the field of data science and artificial intelligence.
+              I am currently pursuing a Master’s in Data Science, building on a strong foundation in engineering with a Bachelor of Technology in Computer Science from CMR Institute of Technology. My engineering background has equipped me with rigorous problem-solving abilities, a deep understanding of algorithms, and strong technical skills, which I have transitioned into the field of data science and artificial intelligence.
             </p>
 
             <p class="lead" style="line-height: 1.8; color: #495057; margin-bottom: 20px;">
@@ -134,38 +134,73 @@
 </section>
 
 <!-- ======= Skills Section ======= -->
-<section id="skills" class="skills-mf sect-pt4 route">
+<section id="skills" style="background-color:#f9f9f9;padding:60px 0;">
+  <style>
+    /* Styles for the skills section */
+    #skills h2 {
+      font-weight: 700;
+      color: #222;
+      margin-bottom: 30px;
+    }
+
+    #skills .skills-info {
+      text-align: center;
+    }
+
+    #skills ul {
+      list-style: none;
+      padding: 0;
+      margin: 0 auto;
+      max-width: 700px; /* keeps the list nicely centered */
+    }
+
+    #skills ul li {
+      margin-bottom: 10px;
+      font-size: 1rem;
+      color: #333;
+      padding: 8px 0;
+      border-bottom: 1px solid #eaeaea;
+    }
+
+    #skills ul li:last-child {
+      border-bottom: none;
+    }
+
+    #skills ul li strong {
+      color: #0d6efd; /* accent color for skill titles */
+    }
+
+    /* Optional hover effect */
+    #skills ul li:hover {
+      background-color: #f1f5ff;
+    }
+  </style>
+
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-lg-8">
-        <div class="box-shadow-full">
-          <div class="row">
-            <!-- Skills Section -->
-            <div class="col-12">
-              <div class="skills-info">
-                <h2 class="text-center">Skills</h2>
-                <ul>
-                  <li><strong>Programming Languages</strong>: Python, SQL</li>
-                  <li><strong>Data Analysis & Manipulation</strong>: Pandas, NumPy, Excel</li>
-                  <li><strong>Data Visualization</strong>: Power BI, Matplotlib, Seaborn</li>
-                  <li><strong>Machine Learning</strong>: Scikit-learn, TensorFlow</li>
-                  <li><strong>Deep Learning</strong>: Keras, PyTorch</li>
-                  <li><strong>Databases</strong>: SQL, NoSQL</li>
-                  <li><strong>Version Control</strong>: Git, GitHub</li>
-                  <li><strong>Cloud Platforms</strong>: AWS, Azure</li>
-                </ul>
-              </div>
-            </div>
-          </div>
+        <div class="skills-info">
+          <h2>Skills</h2>
+          <ul>
+            <li><strong>Programming Languages</strong>: Python, SQL</li>
+            <li><strong>Data Analysis & Manipulation</strong>: Pandas, NumPy, Excel</li>
+            <li><strong>Data Visualization</strong>: Power BI, Matplotlib, Seaborn</li>
+            <li><strong>Machine Learning</strong>: Scikit-learn, TensorFlow</li>
+            <li><strong>Deep Learning</strong>: Keras, PyTorch</li>
+            <li><strong>Databases</strong>: SQL, NoSQL</li>
+            <li><strong>Version Control</strong>: Git, GitHub</li>
+            <li><strong>Cloud Platforms</strong>: AWS, Azure</li>
+          </ul>
         </div>
       </div>
     </div>
   </div>
 </section>
+
 <!-- === Resume Section ======= -->
 <section id="download-resume" class="text-center py-3">
   <div class="container">
-    <h2 style="font-size: 30px; font-family: 'Open Sans', sans-serif; font-weight: bold; color: #0b0b0b; letter-spacing: 2px; text-transform: uppercase; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); margin-bottom: 20px;">
+    <h2 style="font-size: 30px; font-family: 'Open Sans', sans-serif; color: #0b0b0b; letter-spacing: 2px; text-transform: uppercase; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); margin-bottom: 20px;">
       Download My Resume
     </h2>
     <a href="assets/img/Greeshma-Chanduri-FlowCV-Resume-20250107.pdf" download class="btn btn-primary btn-lg">Download</a>
@@ -207,7 +242,7 @@
             <div class="work-box">
               <a href="assets/img/work-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
                 <div class="work-img">
-                  <img src="assets/img/work-2.jpg" alt="" class="img-fluid">
+                  <img src="assets/img/work-3.jpg" alt="" class="img-fluid">
                 </div>
               </a>
               <div class="work-content">
@@ -291,118 +326,162 @@
       </div>
     </section>
     
-    <!-- ======= Testimonials Section ======= -->
-    <div class="testimonials paralax-mf bg-image" style="background-color: black !important;">
-      <div class="overlay-mf" style="background: none !important;"></div>
-    
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
+ <!-- ======= Testimonials Section ======= -->
+<section class="testimonials paralax-mf bg-image" style="background-color:black;padding:60px 0;">
+  <style>
+    /* White pagination bullets */
+    .testimonials .swiper-pagination-bullet {
+      background-color: #fff !important;
+      opacity: 0.6;
+    }
+    .testimonials .swiper-pagination-bullet-active {
+      background-color: #0d6efd !important; /* active bullet blue */
+      opacity: 1;
+    }
 
-            <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-              <div class="swiper-wrapper">
+    /* Testimonial boxes */
+    .testimonials .testimonial-box {
+      background-color: rgba(255,255,255,0.05);
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+      color: #fff;
+      transition: transform 0.3s ease;
+    }
+    .testimonials .testimonial-box:hover {
+      transform: translateY(-5px);
+    }
 
-                <div class="swiper-slide">
-                  <div class="testimonial-box">
-                    <div class="author-test">
-                      <img src="assets\img\image1.png" alt="" class="rounded-circle b-shadow-a">
-                      <span class="author">DATA ANALYST PROFFESIONAL CERTFICATE , GOOGLE</span>
-                    </div>
-                    <div class="content-test">
-                      <p class="description lead">
-                        Achieved Google's Data Analyst Professional Certificate, showcasing proficiency in data analysis and data-driven insights.
-                      </p>
-                    </div>
-                  </div>
-                </div><!-- End testimonial item -->
+    .testimonials .author-test img {
+      width: 80px;
+      height: 80px;
+      object-fit: cover;
+      margin-bottom: 10px;
+    }
 
-                <div class="swiper-slide">
-                  <div class="testimonial-box">
-                    <div class="author-test">
-                      <img src="assets\img\image2.png" alt="" class="rounded-circle b-shadow-a">
-                      <span class="author">PROBLEM SOLVING USING COMPUTATION THINKING, UNIVERSITY OF MICHIGAN (COURSERA)
-                      </span>
-                    </div>
-                    <div class="content-test">
-                      <p class="description lead">
-                        Completed the University of Michigan's Coursera program, honing problem-solving skills through computational thinking techniques.
-                      </p>
-                    </div>
-                  </div>
-                </div><!-- End testimonial item -->
-                <div class="swiper-slide">
-                  <div class="testimonial-box">
-                    <div class="author-test">
-                      <img src="assets\img\image3.png" alt="" class="rounded-circle b-shadow-a">
-                      <span class="author">INTRODUCTION TO SQL , UDEMY
-                      </span>
-                    </div>
-                    <div class="content-test">
-                      <p class="description lead">
-                        Completed Udemy's introductory course on SQL, gaining practical knowledge in querying and managing databases.
-                      </p>
-                    </div>
-                  </div>
-                </div><!-- End testimonial item -->
+    .testimonials .author-test span.author {
+      display: block;
+      font-weight: 600;
+      margin-top: 5px;
+      color: #fff;
+    }
 
-                <div class="swiper-slide">
-                  <div class="testimonial-box">
-                    <div class="author-test">
-                      <img src="assets\img\image1.png" alt="" class="rounded-circle b-shadow-a">
-                      <span class="author">INTRODUCTION TO PROJECT MANAGEMENT , GOOGLE
+    .testimonials .description.lead {
+      color: #ddd;
+      font-size: 0.95rem;
+      line-height: 1.6;
+      margin-top: 15px;
+    }
+  </style>
 
-                      </span>
-                    </div>
-                    <div class="content-test">
-                      <p class="description lead">
-                        Successfully completed Google's introductory course on project management, enhancing skills in effective project planning and execution.
-                      </p>
-                    </div>
-                  </div>
-                </div><!-- End testimonial item -->
-                <div class="swiper-slide">
-                  <div class="testimonial-box">
-                    <div class="author-test">
-                      <img src="assets\img\image5.png" alt="" class="rounded-circle b-shadow-a">
-                      <span class="author">INTRODUCTION TO BUSINESS INTELLIGENCE ,ITSONIX SOLUTIONS
-                      </span>
-                    </div>
-                    <div class="content-test">
-                      <p class="description lead">
-                        Acquired fundamental skills in business intelligence through ITSONIX Solutions' introductory course.
-                      </p>
-                    </div>
-                  </div>
-                </div><!-- End testimonial item -->
+  <div class="overlay-mf" style="background:none !important;"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
 
-                <div class="swiper-slide">
-                  <div class="testimonial-box">
-                    <div class="author-test">
-                      <img src="assets\img\image4.png" alt="" class="rounded-circle b-shadow-a">
-                      <span class="author">DATA MINING AND DECISION MAKING : DATA PREPARATION & PREDICTIVE ANALYSIS , INFOSYS
-                      </span>
-                    </div>
-                    <div class="content-test">
-                      <p class="description lead">
-                        Completed Infosys' course, mastering data preparation and predictive analysis techniques for informed decision-making.
-                      </p>
-                    </div>
-                  </div>
-                </div><!-- End testimonial item -->
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <!-- Testimonial 1 -->
+            <div class="swiper-slide">
+              <div class="testimonial-box">
+                <div class="author-test">
+                  <img src="assets/img/image1.png" alt="" class="rounded-circle b-shadow-a">
+                  <span class="author">DATA ANALYST PROFESSIONAL CERTIFICATE , GOOGLE</span>
+                </div>
+                <div class="content-test">
+                  <p class="description lead">
+                    Achieved Google's Data Analyst Professional Certificate, showcasing proficiency in data analysis and data-driven insights.
+                  </p>
+                </div>
               </div>
-              <div class="swiper-pagination"></div>
-            </div>
-              </div>
-              <div class="swiper-pagination"></div>
             </div>
 
-            <!-- <div id="testimonial-mf" class="owl-carousel owl-theme">
-          
-        </div> -->
+            <!-- Testimonial 2 -->
+            <div class="swiper-slide">
+              <div class="testimonial-box">
+                <div class="author-test">
+                  <img src="assets/img/image2.png" alt="" class="rounded-circle b-shadow-a">
+                  <span class="author">PROBLEM SOLVING USING COMPUTATIONAL THINKING, UNIVERSITY OF MICHIGAN (COURSERA)</span>
+                </div>
+                <div class="content-test">
+                  <p class="description lead">
+                    Completed the University of Michigan's Coursera program, honing problem-solving skills through computational thinking techniques.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Testimonial 3 -->
+            <div class="swiper-slide">
+              <div class="testimonial-box">
+                <div class="author-test">
+                  <img src="assets/img/image3.png" alt="" class="rounded-circle b-shadow-a">
+                  <span class="author">INTRODUCTION TO SQL , UDEMY</span>
+                </div>
+                <div class="content-test">
+                  <p class="description lead">
+                    Completed Udemy's introductory course on SQL, gaining practical knowledge in querying and managing databases.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Testimonial 4 -->
+            <div class="swiper-slide">
+              <div class="testimonial-box">
+                <div class="author-test">
+                  <img src="assets/img/image1.png" alt="" class="rounded-circle b-shadow-a">
+                  <span class="author">INTRODUCTION TO PROJECT MANAGEMENT , GOOGLE</span>
+                </div>
+                <div class="content-test">
+                  <p class="description lead">
+                    Successfully completed Google's introductory course on project management, enhancing skills in effective project planning and execution.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Testimonial 5 -->
+            <div class="swiper-slide">
+              <div class="testimonial-box">
+                <div class="author-test">
+                  <img src="assets/img/image5.png" alt="" class="rounded-circle b-shadow-a">
+                  <span class="author">INTRODUCTION TO BUSINESS INTELLIGENCE , ITSONIX SOLUTIONS</span>
+                </div>
+                <div class="content-test">
+                  <p class="description lead">
+                    Acquired fundamental skills in business intelligence through ITSONIX Solutions' introductory course.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Testimonial 6 -->
+            <div class="swiper-slide">
+              <div class="testimonial-box">
+                <div class="author-test">
+                  <img src="assets/img/image4.png" alt="" class="rounded-circle b-shadow-a">
+                  <span class="author">DATA MINING AND DECISION MAKING : DATA PREPARATION & PREDICTIVE ANALYSIS , INFOSYS</span>
+                </div>
+                <div class="content-test">
+                  <p class="description lead">
+                    Completed Infosys' course, mastering data preparation and predictive analysis techniques for informed decision-making.
+                  </p>
+                </div>
+              </div>
+            </div>
+
           </div>
+          <div class="swiper-pagination"></div>
         </div>
+
       </div>
-    </div><!-- End Testimonials Section -->
+    </div>
+  </div>
+</section>
+<!-- End Testimonials Section -->
+
 
    
     <!-- ======= Contact Section ======= -->
