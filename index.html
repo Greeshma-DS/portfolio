@@ -5,13 +5,15 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Greeshma Portfolio - Index</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  <title>Greeshma Chanduri | Portfolio</title>
+  <meta name="description" content=" Portfolio of Greeshma Chanduri — Data Science graduate student specializing in AI, Machine Learning, and Data Analytics.">
+  <meta name="keywords" content="Greeshma Chanduri, Data Science, AI, Machine Learning, Portfolio">
+
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon.png">
+
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -19,18 +21,30 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  />
+
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
 </head>
 
 <body>
+  <div class="bg-animation">
+    <div class="floating-shape shape1"></div>
+    <div class="floating-shape shape2"></div>
+    <div class="floating-shape shape3"></div>
+  </div>
+  <!-- END OF ANIMATED BACKGROUND -->
 
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center justify-content-between">
 
-      <h1 class="logo"><a href="index.html">G Folio</a></h1>
+     <h1 class="logo"><a href="index.html"><span style="color:#0078ff;">G</span>Folio</a></h1>
+
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -49,33 +63,77 @@
 
     </div>
   </header><!-- End Header -->
-<div id="hero" class="hero route bg-image" style="background-image: url(assets/img/hero-bg.jpg)">
+<div id="hero" class="hero route bg-image" style="background-image: url(assets/img/hero.jpg)">
   <div class="overlay-itro"></div>
   <div class="hero-content display-table">
     <div class="table-cell">
       <div class="container d-flex align-items-center">
 
         <!-- Profile Image -->
-        <img src="assets/img/testimonial-1.jpg" 
+        <img src="assets/img/pooja.jpeg" 
              alt="Greeshma Chanduri" 
             class="rounded shadow" 
-            style="width: 150px; height: 200px; object-fit: cover;">
+            style="width: 160px; height: 210px; object-fit: cover;">
 
         <!-- Hero Text -->
-        <div>
-          <h1 class="hero-title mb-2"><strong>&gt;HELLO, WORLD.</strong></h1>
+        <div style="margin-left: 40px;">
+          <h1 class="hero-title mb-2"><strong>HELLO, WORLD.</strong></h1>
           <h2 style="font-size: 24px; color: white;">I AM GREESHMA CHANDURI</h2>
           <p class="hero-subtitle mt-2">
-            <span class="typed" data-typed-items=" Graduate Student, Freelancer, Tutor, Data and AI Enthusiast"></span>
+            <span class="typed" data-typed-items=" Graduate Student, Data Scientist, AI Enthusiast, Problem Solver"></span>
           </p>
+          <!-- ===== Resume Button + Subtitle Styling (Hero Only) ===== -->
+<style>
+  /* Make hero subtitle white */
+  #hero .hero-subtitle,
+  #hero .typed {
+    color: #ffffff;
+  }
+
+  /* Resume Button Styling */
+  #hero .resume-btn {
+    display: inline-block;
+    margin-top: 15px;
+    height: 40px;
+    width: 170px;
+    line-height: 40px;
+    background-color: rgb(194, 212, 231);
+    font-size: 1rem;
+    color: #ffffff; /* White text */
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2),
+                0 6px 20px rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  /* Hover Effect */
+  #hero .resume-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25),
+                0 10px 25px rgba(0, 0, 0, 0.22);
+  }
+
+  /* Click Effect */
+  #hero .resume-btn:active {
+    transform: scale(0.97);
+  }
+</style>
+
+<a href="assets/img/Greeshma_Chanduri_Resume.pdf" target="_blank" class="resume-btn">
+  <b>My Resume</b>
+</a>
+<!-- ===== End Resume Button ===== -->
+
         </div>
+    
 
       </div>
     </div>
   </div>
 </div>
-        
-          
+ 
         
   
         </div>
@@ -90,31 +148,30 @@
     <div class="row justify-content-center">
       <div class="col-md-10 text-center">
         <div class="about-me pt-4 pt-md-0">
-          <div class="title-box-2">
-            <h5 class="title-left" style="font-size: 24px; font-weight: bold; color: #000001;">
-              About Me
-            </h5>
+          <!-- About Section Title -->
+          <div class="section-title">
+            <h2 class="about-title">About Me</h2>
+            <p class="about-subtitle">
+              A brief introduction to who I am and what I do
+            </p>
           </div>
-
           <div class="about-me-content" style="font-size: 16px; text-align: center; margin-top: 20px;">
-            <p class="lead" style="line-height: 1.8; color: #495057; margin-bottom: 20px;">
-              I am currently pursuing a Master’s in Data Science, building on a strong foundation in engineering with a Bachelor of Technology in Computer Science from CMR Institute of Technology. My engineering background has equipped me with rigorous problem-solving abilities, a deep understanding of algorithms, and strong technical skills, which I have transitioned into the field of data science and artificial intelligence.
+            <p class="lead" style="line-height: 1.8; color: #ffffff; margin-bottom: 20px;">
+              I am currently pursuing a Master's in Computer Science with a concentration in Data Science and Information Security at the University of North Carolina at Charlotte. My journey in technology is driven by curiosity, analytical thinking, and a passion for transforming data into meaningful insights.
+
+            <p class="lead" style="line-height: 1.8; color: #ffffff; margin-bottom: 20px;">
+              With a Bachelor's in Computer Science and Engineering from CMR Institute of Technology, I have built a strong foundation in programming, algorithms, and software development. This technical background, combined with my problem-solving mindset, enables me to tackle complex challenges with confidence and creativity.
             </p>
 
-            <p class="lead" style="line-height: 1.8; color: #495057; margin-bottom: 20px;">
-              During my undergraduate studies, I gained valuable experience in programming, data structures, and software engineering, and worked on impactful projects like Non-Invasive Glucometer and Human Action Recognition. These experiences sparked my passion for data-driven solutions and machine learning, leading me to delve deeper into AI and deep learning.
+            <p class="lead" style="line-height: 1.8; color: #ffffff; margin-bottom: 20px;">
+              During my Data Management Internship at Astute Infocom, I optimized data pipelines using SQL and Python, processed large datasets to enhance accuracy, and collaborated with cross-functional teams to support cloud-based workflows. This hands-on experience solidified my skills in data processing and quality management.
             </p>
 
-            <p class="lead" style="line-height: 1.8; color: #495057; margin-bottom: 20px;">
-              During my masters, I have refined my skills in Python, SQL, Power BI, Scikit-learn, and TensorFlow, focusing on data analysis, visualization, and machine learning. My internships at SRS Group and GK Enterprises allowed me to apply engineering knowledge to real-world problems, improving data accuracy and streamlining operations.
-            </p>
+            <p class="lead" style="line-height: 1.8; color: #ffffff; margin-bottom: 20px;">
+              As a Class Representative at CMR Institute of Technology, I demonstrated leadership by bridging communication between students and faculty, coordinating academic activities, and fostering a collaborative learning environment. I'm also passionate about making technical concepts accessible and have experience in teaching and mentoring.
 
-            <p class="lead" style="line-height: 1.8; color: #495057; margin-bottom: 20px;">
-              Outside of academics, I am actively involved in volunteer work and social causes, using my coding skills to contribute to web development projects for NGOs. As a freelancer at Chegg, I have honed my problem-solving abilities, helping students succeed academically while fostering a positive learning experience. I have also demonstrated leadership and teamwork as a Class Representative and Event Coordinator at CMR Institute of Technology.
-            </p>
-
-            <p class="lead" style="line-height: 1.8; color: #495057; margin-bottom: 20px;">
-              Passionate about AI and data science, I aim to leverage these fields to solve complex problems and drive innovation. I look forward to continuing to develop my skills and applying my expertise to create impactful solutions in data science and AI.
+            <p class="lead" style="line-height: 1.8; color: #ffffff; margin-bottom: 20px;">
+              I thrive in dynamic, collaborative environments where innovation and continuous learning drive meaningful results. With a drive to grow and create purposeful impact, I aim to contribute to projects that solve complex problems, deliver measurable outcomes, and make a lasting difference in the world of technology and data science.
             </p>
           </div>
         </div>
@@ -123,146 +180,332 @@
   </div>
 </section>
 
-<!-- ======= Skills Section ======= -->
-<section id="skills" style="background-color:#f9f9f9;padding:60px 0;">
-  <style>
-    /* Styles for the skills section */
-    #skills h2 {
-      font-weight: 700;
-      color: #222;
-      margin-bottom: 30px;
-    }
-
-    #skills .skills-info {
-      text-align: center;
-    }
-
-    #skills ul {
-      list-style: none;
-      padding: 0;
-      margin: 0 auto;
-      max-width: 700px; /* keeps the list nicely centered */
-    }
-
-    #skills ul li {
-      margin-bottom: 10px;
-      font-size: 1rem;
-      color: #333;
-      padding: 8px 0;
-      border-bottom: 1px solid #eaeaea;
-    }
-
-    #skills ul li:last-child {
-      border-bottom: none;
-    }
-
-    #skills ul li strong {
-      color: #0d6efd; /* accent color for skill titles */
-    }
-
-    /* Optional hover effect */
-    #skills ul li:hover {
-      background-color: #f1f5ff;
-    }
-  </style>
-
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-lg-8">
-        <div class="skills-info">
-          <h2>Skills</h2>
-          <ul>
-            <li><strong>Programming Languages</strong>: Python, SQL</li>
-            <li><strong>Data Analysis & Manipulation</strong>: Pandas, NumPy, Excel</li>
-            <li><strong>Data Visualization</strong>: Power BI, Matplotlib, Seaborn</li>
-            <li><strong>Machine Learning</strong>: Scikit-learn, TensorFlow</li>
-            <li><strong>Deep Learning</strong>: Keras, PyTorch</li>
-            <li><strong>Databases</strong>: SQL, NoSQL</li>
-            <li><strong>Version Control</strong>: Git, GitHub</li>
-            <li><strong>Cloud Platforms</strong>: AWS, Azure</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- === Resume Section ======= -->
-<section id="download-resume" class="text-center py-3">
-  <div class="container">
-    <h2 style="font-size: 30px; font-family: 'Open Sans', sans-serif; color: #0b0b0b; letter-spacing: 2px; text-transform: uppercase; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); margin-bottom: 20px;">
-      Download My Resume
-    </h2>
-    <a href="assets/img/Greeshma_Chanduri_Resume_intern.pdf" download class="btn btn-primary btn-lg">Download</a>
-  </div>
-</section>
-<!-- End Resume Section -->
-    
-    </div><!-- End Counter Section -->
-
-   <section id="portfolio">
+ <!-- ======= Skills Section ======= -->
+<section id="skills" class="skills-section">
   <div class="container">
     <div class="section-title">
-      <h3>Education & Projects</h3>
-      <div class="line-mf"></div>
+      <h2>Skills & Expertise</h2>
+      <p class="section-subtitle">Technologies and tools I work with</p>
     </div>
 
-    <!-- Education -->
-    <div class="row">
-      <div class="col-md-12">
-        <h4 class="mb-3">Education</h4>
-        <div class="edu-entry">
-          <h5>Master of Science in Data Science</h5>
-          <p><strong>University of New Haven, Tagliatela College of Engineering</strong> (Aug 2024 – May 2026, GPA 3.9/4.0)</p>
-          <ul>
-            <li>Completed advanced coursework in Machine Learning, Deep Learning, Data Analytics, Statistical Methods, SQL, TensorFlow, Scikit-learn, Keras, XGBoost, Pandas, NumPy, OpenCV, Streamlit, Power BI.</li>
-            <li>Presented and published paper “Student Performance Prediction Using Hybrid Ensemble” at the 15th IEEE ICCSCE 2025, Universiti Teknologi MARA, Malaysia.</li>
-            <li>Built interactive dashboards and real-time prediction apps as part of course projects.</li>
-          </ul>
-        </div>
-
-        <div class="edu-entry">
-          <h5>Bachelor of Technology in Computer Science (AI & ML)</h5>
-          <p><strong>CMR Institute of Technology, Hyderabad</strong> (Aug 2020 – May 2024, Grade A)</p>
-          <ul>
-            <li>Studied Python, Data Structures, Algorithms, OOP, Operating Systems, DBMS, Computer Networks, Git and Linux.</li>
-            <li>Leadership roles: Class Representative, Innovation Cell Coordinator, E-Yantra Club (IIT Bombay) member.</li>
-            <li>Organised Smart-India Project Expo Hackathon and Scintillation Annual Day events.</li>
-          </ul>
+    <div class="skills-grid">
+      <!-- Programming -->
+      <div class="skill-card">
+        <div class="skill-icon">💻</div>
+        <h3>Programming</h3>
+        <div class="skill-tags">
+          <span class="skill-tag">Python</span>
+          <span class="skill-tag">SQL</span>
+          <span class="skill-tag">C++</span>
+          <span class="skill-tag">JavaScript</span>
+          <span class="skill-tag">HTML</span>
+          <span class="skill-tag">CSS</span>
         </div>
       </div>
-    </div>
 
-    <!-- Projects -->
-    <div class="row">
-      <div class="col-md-12">
-        <h4 class="mb-3">Projects</h4>
-        <ul class="projects-list">
-          <li>
-            <strong>Student Performance Prediction Using Hybrid Ensemble (MSDS Project)</strong><br>
-            Designed a weighted hybrid ensemble integrating Random Forest, XGBoost, and Neural Networks with dynamic weighting based on prior grades. Achieved 82% accuracy on test data and built an interactive Streamlit app for real-time predictions and feature-importance visualization. Presented at IEEE ICCSCE 2025.
-          </li>
-          <li>
-            <strong>Human Action Recognition Using Depth Maps (B.Tech Capstone)</strong><br>
-            Applied CNN architectures (VGG16) with transfer learning and pose-estimation (OpenPose) on Weizmann dataset to classify activities. Achieved 96.95% accuracy and conducted a review of 32 state-of-the-art sensing technologies in HAR.
-          </li>
-          <li>
-            <strong>Fake Currency Detection (B.Tech Project)</strong><br>
-            Built a vision-based counterfeit detector using OpenCV edge detection and histogram features; trained a custom image classifier for reliable fake currency identification.
-          </li>
-          <li>
-            <strong>Non-Invasive Glucometer (B.Tech Project)</strong><br>
-            Engineered a signal-analysis regression model to predict glucose levels from NIR spectroscopy data, demonstrating feasibility of low-cost non-invasive glucose monitoring.
-          </li>
-        </ul>
+      <!-- Data Analysis & Querying -->
+      <div class="skill-card">
+        <div class="skill-icon">📊</div>
+        <h3>Data Analysis & Querying</h3>
+        <div class="skill-tags">
+          <span class="skill-tag">SQL</span>
+          <span class="skill-tag">Pandas</span>
+          <span class="skill-tag">NumPy</span>
+          <span class="skill-tag">EDA</span>
+          <span class="skill-tag">Statistical Analysis</span>
+          <span class="skill-tag">Data Cleaning</span>
+          <span class="skill-tag">Feature Engineering</span>
+        </div>
+      </div>
+
+      <!-- Visualization & BI -->
+      <div class="skill-card">
+        <div class="skill-icon">📈</div>
+        <h3>Visualization & BI</h3>
+        <div class="skill-tags">
+          <span class="skill-tag">Power BI</span>
+          <span class="skill-tag">Tableau</span>
+          <span class="skill-tag">Plotly</span>
+          <span class="skill-tag">Streamlit</span>
+          <span class="skill-tag">Dashboard Design</span>
+          <span class="skill-tag">KPI Reporting</span>
+        </div>
+      </div>
+
+      <!-- Databases -->
+      <div class="skill-card">
+        <div class="skill-icon">🗄️</div>
+        <h3>Databases</h3>
+        <div class="skill-tags">
+          <span class="skill-tag">MySQL</span>
+          <span class="skill-tag">MongoDB</span>
+          <span class="skill-tag">Data Modeling</span>
+          <span class="skill-tag">Query Optimization</span>
+        </div>
+      </div>
+
+      <!-- Cloud & Big Data -->
+      <div class="skill-card">
+        <div class="skill-icon">☁️</div>
+        <h3>Cloud & Big Data</h3>
+        <div class="skill-tags">
+          <span class="skill-tag">AWS S3</span>
+          <span class="skill-tag">AWS Lambda</span>
+          <span class="skill-tag">AWS EC2</span>
+          <span class="skill-tag">Apache Spark</span>
+          <span class="skill-tag">ETL Pipelines</span>
+        </div>
+      </div>
+
+      <!-- Machine Learning -->
+      <div class="skill-card">
+        <div class="skill-icon">🤖</div>
+        <h3>Machine Learning</h3>
+        <div class="skill-tags">
+          <span class="skill-tag">Scikit-learn</span>
+          <span class="skill-tag">TensorFlow</span>
+          <span class="skill-tag">Keras</span>
+          <span class="skill-tag">NLP</span>
+          <span class="skill-tag">Predictive Modeling</span>
+          <span class="skill-tag">Hyperparameter Tuning</span>
+        </div>
+      </div>
+
+      <!-- Tools & Platforms -->
+      <div class="skill-card">
+        <div class="skill-icon">🛠️</div>
+        <h3>Tools & Platforms</h3>
+        <div class="skill-tags">
+          <span class="skill-tag">Git</span>
+          <span class="skill-tag">GitHub</span>
+          <span class="skill-tag">VS Code</span>
+          <span class="skill-tag">Jupyter Notebook</span>
+          <span class="skill-tag">Linux</span>
+          <span class="skill-tag">pytest</span>
+          <span class="skill-tag">Agile/Scrum</span>
+        </div>
+      </div>
+
+      <!-- Professional Skills -->
+      <div class="skill-card">
+        <div class="skill-icon">🤝</div>
+        <h3>Professional Skills</h3>
+        <div class="skill-tags">
+          <span class="skill-tag">Communication</span>
+          <span class="skill-tag">Leadership</span>
+          <span class="skill-tag">Collaboration</span>
+          <span class="skill-tag">Time Management</span>
+          <span class="skill-tag">Problem Solving</span>
+        </div>
       </div>
     </div>
   </div>
+</section>
+
+
+
+    </div><!-- End Counter Section -->
+<!-- ======= Education Section ======= -->
+<section id="education" class="education-section">
+  <div class="section-title">
+    <h2>Education Journey</h2>
+    <p class="section-subtitle">Building expertise through continuous learning</p>
+  </div>
+
+  <div class="education-grid">
+    <!-- Masters Degree -->
+    <div class="edu-card">
+      <div class="edu-left">
+        <div class="degree-icon">🎓</div>
+        <div class="degree-info">
+          <h3 class="degree-title">Master of Science in Data Science</h3>
+          <p class="university-name">University of New haven</p>
+        </div>
+        <div class="edu-meta-left">
+          <span class="meta-item">📅 Aug 2024 – May 2026</span>
+          <span class="gpa-badge">⭐ GPA: 3.90/4.0</span>
+        </div>
+      </div>
+
+      <div class="edu-right">
+        <div class="concentration">
+          <strong>🎯 Concentration:</strong> Data Science, Information Security and Privacy
+        </div>
+
+        <div class="coursework-section">
+          <div class="coursework-title">Key Coursework</div>
+          <div class="course-grid">
+            <div class="course-item">Data Structures & Algorithms</div>
+            <div class="course-item">Database Systems</div>
+            <div class="course-item">Software System Design</div>
+            <div class="course-item">Information Security</div>
+            <div class="course-item">Big Data</div>
+            <div class="course-item">Visual Analytics</div>
+            <div class="course-item">Cloud Computing</div>
+            <div class="course-item">Artificial Intelligence</div>
+            <div class="course-item">Computer Networks</div>
+          </div>
+        </div>
+
+        <div class="highlights">
+          <div class="highlight-item">
+            <span class="highlight-icon">🚀</span>
+            <span class="highlight-text">Building expertise in <strong>data-driven decision making</strong>, secure system design, and cloud-based analytics</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bachelors Degree -->
+    <div class="edu-card">
+      <div class="edu-left">
+        <div class="degree-icon">🎓</div>
+        <div class="degree-info">
+          <h3 class="degree-title">Bachelor of Technology in Computer Science AI-ML</h3>
+          <p class="university-name">CMR Institute of Technology, Medchal</p>
+        </div>
+        <div class="edu-meta-left">
+          <span class="meta-item">📅 Aug 2020 – May 2024</span>
+          <span class="gpa-badge">⭐ Grade: A</span>
+        </div>
+      </div>
+
+      <div class="edu-right">
+        <div class="concentration">
+          <strong>🎯 Core Foundation:</strong> Computer Science & Engineering
+        </div>
+
+        <div class="coursework-section">
+          <div class="coursework-title">Technical Skills</div>
+          <div class="course-grid">
+            <div class="course-item">Programming</div>
+            <div class="course-item">Algorithms</div>
+            <div class="course-item">Data Structures</div>
+            <div class="course-item">OOP</div>
+            <div class="course-item">Operating Systems</div>
+            <div class="course-item">DBMS</div>
+            <div class="course-item">Computer Networks</div>
+            <div class="course-item">Git & Linux</div>
+          </div>
+        </div>
+
+        <div class="highlights">
+          <div class="highlight-item">
+            <span class="highlight-icon">🏆</span>
+            <span class="highlight-text"><strong>Leadership:</strong> Class Representative (2020-2024), Event Coordinator for Illuminate 2022 fest</span>
+          </div>
+          <div class="highlight-item">
+            <span class="highlight-icon">💡</span>
+            <span class="highlight-text">Developed strong <strong>problem-solving abilities</strong> and collaborative teamwork skills</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Education Section -->
+
+    <!-- Projects -->
+<!-- ================= PROJECTS SECTION ================= -->
+<div id="projects" class="projects-section">
+ <!-- Section Title -->
+  <div class="section-title">
+    <h2 class="projects-title">Featured Projects</h2>
+    <p class="projects-subtitle">
+      Showcasing my technical expertise and problem-solving skills
+    </p>
+  
+  </div>
+
+  <div class="work-list">
+
+    <!-- Project 1 -->
+    <div class="works">
+      <img src="assets/img/amazon-reviews.png" alt="Amazon Customer Reviews Analytics">
+      <div class="layer">
+        <h3>Amazon Customer Reviews Analytics</h3>
+        <p>
+          End-to-end ML pipeline on 50K+ reviews using TF-IDF and
+          Logistic Regression (~85% accuracy) with rating prediction
+          (R² ≈ 0.42).
+        </p>
+        <a href="https://github.com/Greeshma-DS/AmazonReviews-Analytics" target="_blank">
+          <i class="fa fa-link"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="works">
+      <img src="assets/img/job-market.png" alt="AI Powered Job Market Insights">
+      <div class="layer">
+        <h3>AI-Powered Job Market Insights</h3>
+        <p>
+          Streamlit dashboard analyzing job demand, salary trends,
+          and AI adoption, enabling insights 30–40% faster using
+          Python, Pandas, and Plotly.
+        </p>
+        <a href="https://github.com/Greeshma-DS/Job-Market-Trends" target="_blank">
+          <i class="fa fa-link"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="works">
+      <img src="assets/img/apple-leaf.png" alt="Apple Leaf Disease Detection">
+      <div class="layer">
+        <h3>Apple Leaf Disease Detection</h3>
+        <p>
+          ResNet50 CNN model trained on 1,800+ images achieving ~92%
+          accuracy, reducing manual diagnosis time by ~80%.
+        </p>
+        <a href="https://github.com/Greeshma-DS/Apple-Leaf-Disease-Detection" target="_blank">
+          <i class="fa fa-link"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- Project 4 -->
+    <div class="works">
+      <img src="assets/img/fake-currency.png" alt="Fake Currency Detection">
+      <div class="layer">
+        <h3>Fake Currency Detection</h3>
+        <p>
+          Supervised ML pipeline using feature engineering,
+          normalization, and KNN classification to detect
+          counterfeit currency with high accuracy.
+        </p>
+        <a href="https://github.com/Greeshma-DS/Fakecurrencydetection" target="_blank">
+          <i class="fa fa-link"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- Project 5 -->
+    <div class="works">
+      <img src="assets/img/traffic-sign.png" alt="Traffic Sign Recognition">
+      <div class="layer">
+        <h3>Traffic Sign Recognition</h3>
+        <p>
+          CNN-based traffic sign classification using the GTSRB dataset,
+          with a Streamlit app for real-time prediction and visualization.
+        </p>
+        <a href="https://github.com/Greeshma-DS/Traffic-Sign-Recognition" target="_blank">
+          <i class="fa fa-link"></i>
+        </a>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
 </section>
 
     
  <!-- ======= Testimonials Section ======= -->
-<section class="testimonials paralax-mf bg-image" style="background-color:black;padding:60px 0;">
+<section class="testimonials paralax-mf bg-image" style="background-color:#212748;padding:60px 0;">
   <style>
     /* White pagination bullets */
     .testimonials .swiper-pagination-bullet {
@@ -270,7 +513,7 @@
       opacity: 0.6;
     }
     .testimonials .swiper-pagination-bullet-active {
-      background-color: #0d6efd !important; /* active bullet blue */
+      background-color: #17335c !important; /* active bullet blue */
       opacity: 1;
     }
 
@@ -337,11 +580,11 @@
               <div class="testimonial-box">
                 <div class="author-test">
                   <img src="assets/img/image2.png" alt="" class="rounded-circle b-shadow-a">
-                  <span class="author">PROBLEM SOLVING USING COMPUTATIONAL THINKING, UNIVERSITY OF MICHIGAN (COURSERA)</span>
+                  <span class="author">INTRODUCTION TO CYBERSECURITY, CISCO</span>
                 </div>
                 <div class="content-test">
                   <p class="description lead">
-                    Completed the University of Michigan's Coursera program, honing problem-solving skills through computational thinking techniques.
+                    Completed Cisco Networking Academy's cybersecurity fundamentals course, gaining knowledge in security principles and best practices.
                   </p>
                 </div>
               </div>
@@ -352,11 +595,11 @@
               <div class="testimonial-box">
                 <div class="author-test">
                   <img src="assets/img/image3.png" alt="" class="rounded-circle b-shadow-a">
-                  <span class="author">INTRODUCTION TO SQL , UDEMY</span>
+                  <span class="author">BASICS OF PYTHON, INFOSYS</span>
                 </div>
                 <div class="content-test">
                   <p class="description lead">
-                    Completed Udemy's introductory course on SQL, gaining practical knowledge in querying and managing databases.
+                    Mastered Python programming fundamentals through Infosys certification, strengthening core programming skills.
                   </p>
                 </div>
               </div>
@@ -366,12 +609,12 @@
             <div class="swiper-slide">
               <div class="testimonial-box">
                 <div class="author-test">
-                  <img src="assets/img/image1.png" alt="" class="rounded-circle b-shadow-a">
-                  <span class="author">INTRODUCTION TO PROJECT MANAGEMENT , GOOGLE</span>
+                  <img src="assets/img/image4.png" alt="" class="rounded-circle b-shadow-a">
+                  <span class="author">PROJECT MANAGEMENT, COURSERA</span>
                 </div>
                 <div class="content-test">
                   <p class="description lead">
-                    Successfully completed Google's introductory course on project management, enhancing skills in effective project planning and execution.
+                    Completed project management certification, developing skills in planning, execution, and team coordination.
                   </p>
                 </div>
               </div>
@@ -382,26 +625,11 @@
               <div class="testimonial-box">
                 <div class="author-test">
                   <img src="assets/img/image5.png" alt="" class="rounded-circle b-shadow-a">
-                  <span class="author">INTRODUCTION TO BUSINESS INTELLIGENCE , ITSONIX SOLUTIONS</span>
+                  <span class="author">INTRODUCTION TO SQL</span>
                 </div>
                 <div class="content-test">
                   <p class="description lead">
-                    Acquired fundamental skills in business intelligence through ITSONIX Solutions' introductory course.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <!-- Testimonial 6 -->
-            <div class="swiper-slide">
-              <div class="testimonial-box">
-                <div class="author-test">
-                  <img src="assets/img/image4.png" alt="" class="rounded-circle b-shadow-a">
-                  <span class="author">DATA MINING AND DECISION MAKING : DATA PREPARATION & PREDICTIVE ANALYSIS , INFOSYS</span>
-                </div>
-                <div class="content-test">
-                  <p class="description lead">
-                    Completed Infosys' course, mastering data preparation and predictive analysis techniques for informed decision-making.
+                     Completed Coursera’s Introduction to SQL course, gaining hands-on experience with database queries, joins, and data manipulation using MySQL and PostgreSQL environments.
                   </p>
                 </div>
               </div>
@@ -432,11 +660,11 @@
             <div class="col-md-6">
               <div class="title-box-2">
                 <h5 class="title-left">
-                  Send Message Us
+                  Send Message
                 </h5>
               </div>
               <div>
-                <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+               <form action="https://formspree.io/f/xpqzopjz" method="POST">
                   <div class="row">
                     <div class="col-md-12 mb-3">
                       <div class="form-group">
@@ -458,11 +686,9 @@
                         <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
                       </div>
                     </div>
-                    <div class="col-md-12 text-center my-3">
-                      <div class="loading">Loading</div>
-                      <div class="error-message"></div>
-                      <div class="sent-message">Your message has been sent. Thank you!</div>
-                    </div>
+                    <input type="hidden" name="_subject" value="New message from portfolio">
+                    <input type="hidden" name="_captcha" value="false">
+
                     <div class="col-md-12 text-center">
                       <button type="submit" class="button button-a button-big button-rouded">Send Message</button>
                     </div>
@@ -478,22 +704,20 @@
               </div>
               <div class="more-info">
                 <p class="lead">
-                  I'm just an email away! Whether you have a project idea, collaboration proposal, or just want to say hello, I'm all ears.
-                  I'm enthusiastic about exploring new opportunities and building meaningful connections within the industry.
-                  Feel free to reach out through email, phone, or any preferred method of communication. I'm eager to engage in conversations, answer any inquiries, and explore the possibilities of working together.
-                  I welcome your messages and look forward to connecting!
+                I'm just an email away! Whether you have a collaboration proposal, project idea, or simply want to connect, I'd love to hear from you. 
+                I'm enthusiastic about exploring opportunities in data science, cloud computing, and information security, and I'm always eager to learn and contribute. 
+                Feel free to reach out through email, LinkedIn, or any preferred method of communication — let's explore possibilities together!
                 </p>
                 <ul class="list-ico">
-                  <li><span class="bi bi-geo-alt"></span> WEST HAVEN, USA </li>
-                  <li><span class="bi bi-envelope"></span> chandurigreeshmaa@gmail.com </li>
+                  <li><span class="bi bi-geo-alt"></span> West Haven, Connecticut, USA</li>
+                  <li><span class="bi bi-phone"></span> +1 (475) 317-4277</li>
+                  <li><span class="bi bi-envelope"></span> chandurigreeshmaa@gmail.com</li>
                 </ul>
               </div>
               <div class="socials">
                 <ul>
-                  <li><a href="https://www.instagram.com/_greeshmaa30?igsh=ZzkzaXp6Z2ozZWox&utm_source=qr"><span class="ico-circle"><i class="bi bi-instagram"></i></span></a></li>
-                  <li><a href="https://twitter.com/ChanduriGreesh1?t=t10IvJb4RSLEwp7vzwsBkw&s=08"><span class="ico-circle"><i class="bi bi-twitter"></i></span></a></li>
-                  <li><a href="https://www.linkedin.com/in/greeshma-chanduri-54160a32b"><span class="ico-circle"><i class="bi bi-linkedin"></i></span></a></li>
-                </ul>
+                  <li><a href="https://www.linkedin.com/in/greeshma-chanduri-54160a32b/"><span class="ico-circle"><i class="bi bi-linkedin"></i></span></a></li>
+                  <li><a href="https://github.com/Greeshma-DS"><span class="ico-circle"><i class="bi bi-github"></i></span></a></li>
               </div>
             </div>
           </div>
@@ -514,7 +738,7 @@
       <div class="row">
         <div class="col-sm-12">
           <div class="copyright-box">
-            <p class="copyright">&copy; Copyright <strong>G Folio</strong>. All Rights Reserved</p>
+            <p class="copyright">&copy; Copyright <strong>Greeshma Chanduri</strong>. All Rights Reserved</p>
             <div class="credits">
               <!--Vendor JS Files -->
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
@@ -522,7 +746,6 @@
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/typed.js/typed.umd.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
